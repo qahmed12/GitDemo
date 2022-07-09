@@ -28,6 +28,7 @@ public class ValidateTitle extends base {
 	@Test
 	public void basePageNavigation() throws IOException {
 
+		System.out.println("Added new line IST for testing");
 		landingPage = new LandingPageFactory(driver);
 
 		// Happy path
