@@ -1,0 +1,3 @@
+14:49:46.692 [TestNG-tests-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x550a6adf608100ca
+14:49:46.755 [TestNG-tests-3] INFO  E2EProject.ValidateTitle - Driver is intiallize
+14:49:54.247 [TestNG-tests-3] INFO  E2EProject.ValidateTitle - Navigate to URL Successfully
