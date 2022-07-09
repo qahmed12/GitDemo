@@ -32,6 +32,8 @@ public class ValidateNavigationBar extends base {
 		LandingPageFactory landingPage = new LandingPageFactory(driver);
 		Assert.assertTrue(landingPage.navigationBar().isDisplayed());
 		log.info("Successfully validated Title FEATURED COURSES");
+		System.out.println("Added new line IST for testing");
+		System.out.println("Added new line IST for testing");
 
 	}
 	@AfterTest

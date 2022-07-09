@@ -29,6 +29,7 @@ public class homePage extends base {
 	@Test(dataProvider = "getData")
 	public void basePageNavigation(String userName, String userPassword, String UserText) throws IOException {
 
+		System.out.println("I am gitStuff code");
 		LandingPageFactory landingPage = new LandingPageFactory(driver);
 		landingPage.getLogin().click();
 
