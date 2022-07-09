@@ -27,6 +27,7 @@ public class ValidateNavigationBar extends base {
 	public void basePageNavigation() throws IOException {
 
 
+		System.out.println("Added new line for testing");
 		LandingPageFactory landingPage = new LandingPageFactory(driver);
 		Assert.assertTrue(landingPage.navigationBar().isDisplayed());
 		log.info("Successfully validated Title FEATURED COURSES");
